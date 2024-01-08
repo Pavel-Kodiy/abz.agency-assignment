@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/abz.agency-assignment/static/css/main.8f8863ec.css",
+    "main.js": "/abz.agency-assignment/static/js/main.4724d9f8.js",
+    "static/media/mainBg.jpeg": "/abz.agency-assignment/static/media/mainBg.be7665f876bbd9138501.jpeg",
+    "index.html": "/abz.agency-assignment/index.html",
+    "main.8f8863ec.css.map": "/abz.agency-assignment/static/css/main.8f8863ec.css.map",
+    "main.4724d9f8.js.map": "/abz.agency-assignment/static/js/main.4724d9f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f8863ec.css",
+    "static/js/main.4724d9f8.js"
+  ]
+}
