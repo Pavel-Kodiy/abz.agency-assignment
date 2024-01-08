@@ -26,7 +26,7 @@ const TextInput: React.FC<IProps> = (props) => {
          dispatch(saveResult(inputValue));
          setIsError(true)
       }
-   }, [inputValue]);
+   }, [dispatch, inputValue, regExp, saveResult]);
 
    return (
       <div className={`${classes.inputContainer} ${(hint || !isError) && classes.extraMargin}`}>
