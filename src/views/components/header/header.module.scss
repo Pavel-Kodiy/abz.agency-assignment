@@ -1,0 +1,34 @@
+@import '../../../index.scss';
+
+.header {
+   width: 100%;
+   max-width: 1170px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: $mainBg;
+   box-sizing: border-box;
+   padding: 0 60px;
+}
+
+@media(max-width: 748px) {
+   .header {
+      padding: 0 32px;
+   }
+}
+
+@media(max-width: 360px) {
+   .header {
+      padding: 0 16px;
+   }
+}
+
+.logo {
+   margin-right: 14px;
+}
+
+.buttonsGroup {
+   display: flex;
+   gap: 10px;
+}

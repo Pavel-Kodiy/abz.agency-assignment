@@ -1,0 +1,56 @@
+@import '../../../index.scss';
+
+.inputContainer {
+   position: relative;
+
+   input {
+      width: 328px;
+      height: 54px;
+      padding: 10px;
+      border: 1px solid $lightGray;
+      border-radius: 4px;
+      font-size: 16px;
+   }
+
+   label {
+      position: absolute;
+      top: 15px;
+      left: 10px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      color: $grayFont;
+      transition: top 0.3s, font-size 0.3s;
+   }
+
+   label.active {
+      top: -20px;
+      font-size: 12px;
+      font-weight: 500;
+   }
+
+   .hint {
+      font-size: 12px;
+      color: $grayFont;
+      margin-top: 4px;
+   }
+
+   .inputError {
+      border: 1px solid $error;
+      margin-bottom: 0;
+   }
+
+   .labelError {
+      color: $error;
+   }
+
+   .errorHint {
+      font-size: 12px;
+      color: $error;
+      margin-top: 4px;
+   }
+}
+
+.extraMargin {
+   margin-bottom: 22px;
+}
