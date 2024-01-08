@@ -1,6 +1,7 @@
 {
   "name": "test-assignment",
   "author": "Pavlo Kodii",
+  "homepage": "https://pavel-kodiy.github.io/abz.agency-assignment/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
